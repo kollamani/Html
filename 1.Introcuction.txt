@@ -1,0 +1,96 @@
+1.	What is Website ?
+A website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. It is accessible over the Internet or a private local area network (LAN) through a web browser. Websites can be used for various purposes, such as providing information, entertainment, communication, e-commerce, and more.
+
+Key components of a website include:
+1.	Web Pages: These are documents containing text, images, multimedia, and other elements. Web pages are typically written in HTML (Hypertext Markup Language) and may include CSS (Cascading Style Sheets) for styling and JavaScript for interactivity.
+2.	Domain Name: A domain name is the unique address that users type into a web browser to access a particular website. For example, www.example.com is a domain name.
+3.	Web Server: This is a computer that hosts the website's files and serves them to users over the Internet. Common web server software includes Apache, Nginx, and Microsoft Internet Information Services (IIS).
+4.	Hosting: Websites need to be hosted on servers, which can be done through various hosting services. These services provide the infrastructure and resources needed to make the website accessible on the Internet.
+5.	Content Management System (CMS): Some websites use a CMS like WordPress, Joomla, or Drupal to facilitate the creation and management of digital content.
+
+2.	What is web client ?
+Web clients, also known as web browsers or user agents, are software applications that enable users to access and interact with content on the World Wide Web. These clients interpret and display web content, allowing users to navigate websites, view multimedia, and interact with web applications. Some of the most popular web clients include:
+Web Browsers: These are the most common type of web clients, and they are designed specifically for accessing information on the web. Examples include:
+•	Google Chrome
+•	Mozilla Firefox
+•	Microsoft Edge
+•	Safari
+•	Opera
+
+3.	What is web application
+A web application is a software application that is accessed and interacted with through a web browser over a network, usually the Internet. Unlike traditional desktop applications, which are launched by your operating system, web applications must be accessed through a web browser.
+Examples of web applications include:
+    •Email services (e.g., Gmail, Outlook): Users can access their emails through a web browser.
+    •Social media platforms (e.g., Facebook, Twitter): Users interact with the platform through a web interface.
+    •Online banking systems: Customers can manage their accounts, transfer funds, and perform other banking activities through a web browser.
+
+4.	Difference between Static and Dynamic pages
+Static and dynamic web pages differ in how content is generated and served to users. Here are the key differences between static and dynamic web pages:
+1.	Content Generation:
+    •Static Web Pages: The content of static web pages remains the same for all users and is pre-defined by the web developer. These pages are written in HTML and may include CSS for styling. Any changes to the content require manual modification of the HTML code.
+    •Dynamic Web Pages: The content of dynamic web pages is generated on the fly, typically by a server-side script. The content may vary based on user interactions, input, or other factors. Server-side technologies (such as PHP, Python, Ruby, or Node.js) are commonly used to generate dynamic content.
+2.	User Interaction:
+    •Static Web Pages: Interaction on static pages is limited to what is predefined by the developer. Users can navigate between pages and interact with static elements, but the content itself doesn't change based on user input or actions.
+    •Dynamic Web Pages: These pages allow for a more interactive and personalized user experience. Content can change dynamically in response to user actions, such as form submissions, clicks, or database queries.
+3.	Loading Time:
+    •Static Web Pages: Generally load faster because the content is pre-defined and does not require server-side processing during each user request.
+    •Dynamic Web Pages: May have slightly longer loading times as the server needs to process requests, generate content, and then send it to the user's browser.
+4.	Examples:
+    •Static Web Pages: Brochure websites, personal blogs, and informational sites where the content remains relatively constant.
+    •Dynamic Web Pages: Social media platforms, online forums, e-commerce websites, and applications where content is generated based on user input or real-time data.
+5.	Scalability:
+    •Static Web Pages: Generally more scalable since they don't require server-side processing for each user request. They are well-suited for websites with a large number of visitors.
+    •Dynamic Web Pages: May require more server resources as the server needs to process requests and generate content dynamically, making scalability considerations more critical.
+
+Frontend ---- client side -----html, css, java script
+Framework --------------- Django, flask
+Backend ------ server side -----sql,Mongodb,mysql
+
+
+What is HTML?
+HTML is a language for describing web pages.
+• HTML stands for Hyper Text Markup Language
+• HTML is not a programming language, it is a markup language
+• A markup language is a set of markup tags
+• HTML uses markup tags to describe web pages
+
+HTML Tags
+HTML markup tags are usually called HTML tags
+• HTML tags are keywords surrounded by angle brackets like <html>
+• HTML tags normally come in pairs like <b> and </b>
+• The first tag in a pair is the start tag, the second tag is the end tag
+• Start and end tags are also called opening tags and closing tags
+
+HTML Documents = Web Pages
+• HTML documents describe web pages
+• HTML documents contain HTML tags and plain text
+• HTML documents are also called web pages
+
+The purpose of a web browser (like Internet Explorer or Firefox) is to read HTML
+documents and display them as web pages. The browser does not display the HTML tags,
+but uses the tags to interpret the content of the page:
+
+<html>
+<head>
+</head>
+<body>
+<h1>My First Heading</h1>
+<p>My first paragraph.</p> 
+</body>
+</html>
+
+Example Explained
+• The text between <html> and </html> describes the web page
+• The text between <body> and </body> is the visible page content
+• The text between <h1> and </h1> is displayed as a heading
+• The text between <p> and </p> is displayed as a paragraph
+
+Editing HTML
+HTML can be written and edited using many different editors like Dreamweaver and
+Visual Studio.
+
+However, in this tutorial we use a plain text editor (like Notepad) to edit HTML. We
+believe using a plain text editor is the best way to learn HTML.
+.HTM or .HTML File Extension? 
+When you save an HTML file, you can use either the .htm or the .html file extension.
+There is no difference; it is entirely up to you. 
